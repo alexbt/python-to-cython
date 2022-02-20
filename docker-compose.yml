@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  python2cython:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: python2cython
+    ports:
+      - "8090:8090"
